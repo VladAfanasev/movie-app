@@ -17,3 +17,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.container-wide {
+  @apply md:px-6 2xl:px-11;
+}
+.transition-fast-out {
+  transition: all 0.2s ease-out;
+}
+
+html,
+body {
+  @apply bg-slate-100;
+}
