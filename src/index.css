@@ -20,11 +20,17 @@
 .container-wide {
   @apply md:px-6 2xl:px-11;
 }
+.container-small {
+  @apply bg-red-400 max-w-2xl md:px-6 2xl:px-11;
+}
 .transition-fast-out {
   transition: all 0.2s ease-out;
 }
-
+.active {
+  @apply underline underline-offset-4;
+}
 html,
 body {
-  @apply bg-slate-100;
+  @apply bg-gray-900;
+  @apply text-slate-950;
 }

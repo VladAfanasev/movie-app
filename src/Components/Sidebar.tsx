@@ -110,7 +110,6 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
   });
   useEffect(() => {
     const keyDownHandler = (event: KeyboardEvent) => {
-      console.log(!sidebarOpen || event.key !== "Escape");
       if (!sidebarOpen || event.key !== "Escape") return;
       setSidebarOpen(false);
     };
